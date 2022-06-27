@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!-- Icons link -->
+	<title>Fashion Street</title>
+	<link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
+	  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">  
+  <link rel="stylesheet" href="lightbox.css">
+ <!--  Jquery CDN -->
+ <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+
+   <!-- 	Css file -->
+   <link rel="stylesheet" type="text/css" href="index.css">
+</head>
+<body>
+	<div class="header">
+		<div class="tag_line">
+			<h2>Meet our new<br>limited Collections</h2>
+			<p><a href="#">Explore Now</a><i class="fa fa-angle-down" aria-hidden="true"></i></p>
+		</div>
+<nav>
+    <div class="navbar">
+      <i class='bx bx-menu'></i>
+      <div class="logo"><a href="#">Marina</a></div>
+      <div class="nav-links">
+        <div class="sidebar-logo">
+          <span class="logo-name">CodingLab</span>
+          <i class='bx bx-x' ></i>
+        </div>
+        <ul class="links">
+          <li><a href="#" class="home">Home</a></li>
+          <li>
+            <a href="#">Shop</a>
+                        <i class='bx bxs-chevron-down htmlcss-arrow arrow  '></i>
+
+            <ul class="htmlCss-sub-menu sub-menu">
+              <li><a href="#">Mens Wear</a></li>
+              <li><a href="#">Womens Wear</a></li>
+              <li><a href="#">Kids Wear</a></li>
+              
+            </ul>
+
+          </li>
+          <li><a href="#">About us</a></li>
+          <li><a href="#">Contact us</a></li>
+
+          
+        </ul>
+      </div>
+       <div class="social_media">
+       	<a href="#" data-toggle="modal" data-target="#myModal">Login</a>
+       	<a href="#"data-toggle="modal" data-target="#myModal1">Sign Up</a>
+       	<a href=""><i class="fa fa-instagram" aria-hidden="true"></i></a>
+        <a href=""><i class="fa fa-facebook" aria-hidden="true"></i></a>
+       </div>
+      <div class="search-cart">
+        <i class='bx bx-cart'></i>
+      </div>
+      <div class="search-box">
+        <i class='bx bx-search'></i>
+        <div class="input-box">
+          <input type="text" placeholder="Search...">
+        </div>
+      </div>
+     
+      
+     
+    </div>
+  </nav>
+</div>
+<!-- Login Page -->
+ <div class="container">
+    <div class="row">
+        <div class="col-md-12">
+            <div class="modal-box">
+                <!-- Modal -->
+                <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                    <div class="modal-dialog" role="document">
+                        <div class="modal-content clearfix">
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
+                            <div class="modal-body">
+                                <p class="title">Welcome to Marina</p>
+                                <form action="validation.php" method="GET">
+                                <div class="form-group">
+                                    <span class="input-icon"><i class="fa fa-user"></i></span>
+                                    <input type="email" class="form-control" placeholder="Email" required>
+                                </div>
+                                <div class="form-group">
+                                    <span class="input-icon"><i class="fas fa-key"></i></span>
+                                    <input type="password" class="form-control" placeholder="Password" required>
+                                </div>
+                                 <button class="btn">Login</button>
+                             </form>
+                                <div class="list">
+                                	<ul>
+                                <li><a href="">Forgot Password?</a></li>
+                                <li><a href="">Create Account</a></li>
+                            </ul>
+                            </div>
+                               
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- SignUp Page -->
+<div class="container">
+    <div class="row">
+        <div class="col-md-12">
+            <div class="modal-box">
+                <!-- Modal -->
+                <div class="modal fade" id="myModal1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                    <div class="modal-dialog" role="document">
+                        <div class="modal-content clearfix">
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
+                            <div class="modal-body">
+                                <p class="title">Welcome to Marina</p>
+                                <form action="Registration.php" method="POST">
+                                <div class="form-group">
+                                 
+                                    <input type="text" class="form-control" placeholder="Firstname" required>
+                                </div>
+                                <div class="form-group">
+                                 
+                                    <input type="text" class="form-control" placeholder="Secondname" required>
+                                </div>
+                                <div class="form-group">
+                                 
+                                    <input type="email" class="form-control" placeholder="Email" required>
+                                </div>
+                                <div class="form-group">
+                                    
+                                    <input type="password" class="form-control" placeholder="Password" required>
+                                </div>
+                               
+                                 <button class="btn">Create</button>
+                             </form>
+                                <div class="list">
+                                	<ul>
+                                
+                                <li ><p>Have already an account?</p><a href=""><span>Login</span></a></li>
+                            </ul>
+                            </div>
+                               
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="component2">
+<div class="container">
+	<div class="row">
+		<div class="col-sm-6 sacrifice">
+			<p>Never Sacrifice <br>your style for <br>anyone.</p>			
+		</div>
+		<div class="col-sm-6 home_image1">
+			<img src="https://images.pexels.com/photos/1485781/pexels-photo-1485781.jpeg" width="85%" height="80%">
+		</div>		
+	</div>
+</div>
+<div class="container">
+	<div class="row">
+		<div class="col-sm-6 home_image2">
+			<img src="https://images.pexels.com/photos/1964970/pexels-photo-1964970.jpeg" width="65%" height="45%">
+		</div>
+		<div class="col-sm-6 home_txt">
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>			
+		</div>
+				
+	</div>
+</div>
+
+<!-- Image Carousel -->
+<div class="image_carousel">
+        <div class="gallery">
+            <a href="images/img1.jpg" data-lightbox="Latest Styles" data-title="Latest Dress">
+                <img src="images/img1.jpg">    
+            </a>
+            <a href="images/img2.jpg" data-lightbox="Latest Styles" data-title="Latest Dress">
+                <img src="images/img2.jpg">    
+            </a>
+            <a href="images/img3.jpeg" data-lightbox="Latest Styles" data-title="Latest Dress">
+                <img src="images/img3.jpeg">    
+            </a>
+            <a href="images/img4.jpeg" data-lightbox="Latest Styles" data-title="Latest Dress">
+                <img src="images/img4.jpeg">    
+            </a>
+            <a href="images/img5.jpeg" data-lightbox="Latest Styles" data-title="Latest Dress">
+                <img src="images/img5.jpeg">    
+            </a>
+            <a href="images/img6.jpeg" data-lightbox="Latest Styles" data-title="Latest Dress">
+                <img src="images/img6.jpeg">    
+            </a>
+            <a href="images/img7.jpeg" data-lightbox="Latest Styles" data-title="Latest Dress">
+                <img src="images/img7.jpeg">    
+            </a>
+            <a href="images/img8.jpeg" data-lightbox="Latest Styles" data-title="Latest Dress">
+                <img src="images/img8.jpeg">    
+            </a>
+           
+    </div>
+</div>
+
+<div class="container" style="display: none;">
+    <video autoplay muted loop id="myVideo">
+  <source src="video/video.mp4" type="video/mp4">
+  Your browser does not support HTML5 video.
+</video>  
+</div>
+<div class="component3">
+    <div class="container">
+        <div class="component3_content">
+            <p>What's the Real<br> Never Washes Away</p>
+            <button><a href="#">Shop Now</a></button>
+            
+        </div>
+        
+    </div>
+    
+</div>
+<!-- NewsLetter -->
+<div class="newsletter">
+<div class="container">
+    <div class="row">
+        
+        <div class="col-sm-6 newsletter_img">
+        <img src="images/newsletter.jpg" alt="" width="80%">
+
+            
+        </div>
+        <div class="col-sm-6 subscribe">
+                
+                    <h1>Stay in The Loop </h1>
+                        <p>  ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                        tempor incididunt ut labore et dolore magna aliqua.</p>
+    
+                    <div class="email">
+                    <i class="fa fa-envelope"></i>
+                    <input class="tbox" type="email" name="" placeholder="Enter your Email">
+                    <button class="btn" type="button" name="button">Subscribe </button>
+                    </div>
+            
+        </div>
+        
+    </div>
+    
+     
+ </div>
+</div>
+</div>
+ <!--    script files -->
+<script src="lightbox-plus-jquery.min.js"></script>
+<script type="text/javascript" src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+
+  <script src="script.js"></script>
+  <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+  <script>
+   $(window).on('scroll',function(){
+      if($(window).scrollTop()){
+      	$('nav').addClass('mainNav_sticky');
+      }
+      else{
+      	$('nav').removeClass('mainNav_sticky');
+      }
+
+   });
+   $(window).on('scroll',function(){
+   if($(window).scrollTop()){
+   $('htmlCss-sub-menu').addClass('mainNav_sticky');
+   }
+else{
+	 $('htmlCss-sub-menu').removeClass('mainNav_sticky');
+
+}
+
+   	});
+</script>
+</body>
+</html>
